@@ -1,0 +1,109 @@
+# Frontend Mentor - Product preview card component solution
+
+This is a solution to the [Product preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+
+## Table of contents
+
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+  - [Continued development](#continued-development)
+  - [Useful resources](#useful-resources)
+- [Author](#author)
+- [Acknowledgments](#acknowledgments)
+
+
+## Overview
+
+### The challenge
+
+Users should be able to:
+
+- View the optimal layout depending on their device's screen size
+- See hover and focus states for interactive elements
+
+### Screenshot
+
+![](./Screenshots/Screenshot%201.png)
+![](./Screenshots/Screenshot%202.png)
+
+
+
+### Links
+
+- Solution URL: (https://your-solution-url.com)
+- Live Site URL: (https://your-live-site-url.com)
+
+## My process
+
+### Built with
+
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+- CSS Grid
+- Root properties
+
+
+### What I learned
+
+Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+
+To see how you can add code snippets, see below:
+
+```html
+ <span class="visually-hidden"> Current price: </span>$149.99</p>
+      <p class="original price">
+```
+ ```html
+ <picture class="product__img">  
+      <source srcset="images/image-product-desktop.jpg" media="(min-width: 600px)">
+      <img src="images/image-product-mobile.jpg" alt="product__image">
+    </picture>
+   ```
+```css 
+:root {
+    --clr-primary-400: hsl(158, 36%, 37%);
+    --clr-primary-500: hsl(158, 36%, 20%);
+    --clr-secondary-200: hsl(30, 38%, 92%);
+    --clr-neutral-900: hsl(212, 21%, 14%);
+    --clr-neutral-400: hsl(228, 12%,48%);
+    --clr-neutral-100: hsl(0, 0%, 100%);
+--fw-regular: 500;
+--fw-bold: 700;
+--ff-accent: 'Fraunces', serif;
+--ff-regular: 'Montserrat', sans-serif;
+```
+ ```css
+  @media (min-width: 600px) {
+.product {
+    --content-padding: 2rem;
+    grid-template-columns: 1fr 1fr;
+}```
+
+  }
+
+
+
+### Useful resources
+
+- [Example resource 1](https://www.youtube.com/watch?v=B2WL6KkqhLQ) - This helped meto see how to structure the project and gave useful tips to make the problem solving prroccess easy.
+
+
+
+
+
+## Author
+
+- Website - [Olaomo Philip]
+- Frontend Mentor - [@lastiroko](https://www.frontendmentor.io/profile/lastiroko)
+
+
+
+## Acknowledgments
+
+Kudos to Kevin Powell for the useful insigh and tips that as used to solve this problem. 
